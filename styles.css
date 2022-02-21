@@ -1,0 +1,40 @@
+:root {
+  --black: #000000;
+  --lightgray: #f5f5f5;
+  --light: #ffcd8c;
+  --orange: rgb(255, 153, 0);
+  --white: #fff;
+}
+
+html, body {
+  background-color: var(--black);
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: var(--white);
+}
+
+body, button, input {
+  font-family: 'Roboto', "Arial";
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  height: 100vh;
+  text-align: center;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px #fff, 0 0 20px rgb(94, 94, 94), 0 0 30px var(--orange), 0 0 40px var(--orange), 0 0 50px var(--orange), 0 0 60px var(--orange), 0 0 70px var(--orange);
+  margin: 0;
+  padding: 0;
+}
