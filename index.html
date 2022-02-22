@@ -14,9 +14,37 @@
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="header flex"><div>
-    <h1 class="glow">CADTable</h1>
-    <p style="font-weight: 300; margin-top: 30px;">MEASURE ONCE, BUILD TWICE</p>
+  <div class="header flex"><div class="video-wrapper flex">
+    <video id="background-video" autoplay loop muted poster="assets/GearImage.jpg"><source src="./assets/CADVideo.mp4" type="video/mp4"></video>
+    <div><h1 class="glow">CADTable</h1>
+    <p style="font-weight: 300; margin-top: 30px;">MEASURE ONCE, BUILD TWICE</p></div>
   </div></div>
+
+  <script>
+    var vid = document.getElementById("background-video");
+    vid.playbackRate = 10;
+  </script>
+
+  <div class="content">
+    <div class="section" style="text-align: center;">
+      <h2>What is CADTable?</h2>
+      <p>CADTable is a CADathon for middle - college level students to compete against each other to win prizes. Participates are given 1 week to CAD a specific prompt in one of the 3 divisions of varying difficulity levels to be displayed in front of a panel of judges. </p>
+    </div>
+
+    <div class="section type2 row">
+      <div class="col">
+        <h2>Timeline</h2>
+        <p><b>March 21st</b>: How to Design a Part Workshop</p>
+        <p><b>March 23rd</b>: Integrating Parts into Assemblies Workshop</p>
+        <p><b>March 25th</b>: Render CAD Workshop</p>
+        <p><b>March 26th</b>: Release Competition Prompts</p>
+        <p><b>April 2nd 8:00 AM</b>: Competition Submission Closes</p>
+        <p><b>April 2nd 5:00 PM</b>: CADTable Award Ceremony</p>
+      </div>
+      <div class="col">
+        <img src="assets/GearImage.jpg" width="500px" />
+      </div>
+    </div>
+  </div>
 </body>
 </html>
