@@ -1,8 +1,9 @@
 :root {
   --black: #000000;
   --lightgray: #f5f5f5;
-  --orange: rgb(67, 41, 214);
+  --blue: rgb(67, 41, 214);
   --white: #fff;
+  --lightblue: rgb(209, 209, 255);
 }
 
 html, body {
@@ -12,6 +13,10 @@ html, body {
   font-size: 16px;
   color: var(--white);
   font-weight: 300;
+}
+
+h2 {
+  text-align: center;
 }
 
 body, button, input {
@@ -62,14 +67,19 @@ body, button, input {
   font-size: 100px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 0 10px #fff, 0 0 20px rgb(94, 94, 94), 0 0 30px var(--orange), 0 0 40px var(--orange), 0 0 50px var(--orange), 0 0 60px var(--orange), 0 0 70px var(--orange);
   margin: 0;
   padding: 0;
 }
 
+.line {
+  border-bottom: 1px solid white;
+  height: 20px;
+  width: 100%;
+}
+
 .row {
   display: grid;
-  grid-template-columns: 60% 5%;
+  grid-template-columns: 48% 48%;
   column-gap: 50px;
 }
 
@@ -84,6 +94,58 @@ body, button, input {
   padding: 30px;
 }
 
+.specifications p {
+  font-size: 16px;
+}
+
 .type2 {
-  background-color: rgb(3, 2, 27);
+  background-color: rgb(6, 4, 39);
+}
+
+/*Timeline*/
+.timeline {
+  border-left: 2px solid white;
+}
+
+li {
+  padding-bottom: 15px;
+  margin-left: -28px;
+  list-style: square;
+}
+
+/*Cards*/
+.card {
+  padding: 20px;
+  margin: 5px;
+  border: 3px solid var(--white);
+  text-align: center;
+}
+
+.card h4 {
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: 900;
+}
+
+.card a {
+  background-color: var(--lightblue);
+  color: var(--blue);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+/*Footer*/
+.footer {
+  background-color: var(--blue);
+  padding: 10px;
+  margin: 0;
+}
+
+.footer h4 {
+  font-weight: 300;
+  color: var(--lightblue);
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
