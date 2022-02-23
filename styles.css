@@ -128,8 +128,8 @@ li {
 }
 
 .card a {
-  background-color: var(--lightblue);
-  color: var(--blue);
+  background-color: var(--blue);
+  color: var(--lightblue);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 50px;
