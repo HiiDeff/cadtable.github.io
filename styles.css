@@ -90,16 +90,13 @@ body, button, input {
 }
 
 .section {
-  background-color: rgb(9, 6, 53);
+  background-color: rgb(2, 0, 31);
   padding: 30px;
+  border-bottom: 2px solid white;
 }
 
 .specifications p {
   font-size: 16px;
-}
-
-.type2 {
-  background-color: rgb(6, 4, 39);
 }
 
 /*Timeline*/
@@ -127,24 +124,28 @@ li {
   font-weight: 900;
 }
 
-.card a {
-  background-color: var(--blue);
-  color: var(--lightblue);
+a {
+  background-color: rgb(59, 54, 129);
+  color: white;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 50px;
 }
 
+.topbuttons {
+  padding: 10px 200px;
+}
+
 /*Footer*/
 .footer {
-  background-color: var(--blue);
+  background-color: rgb(59, 54, 129);
   padding: 10px;
   margin: 0;
 }
 
 .footer h4 {
   font-weight: 300;
-  color: var(--lightblue);
+  color: white;
   text-align: center;
   margin: 0;
   padding: 0;
