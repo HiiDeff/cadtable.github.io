@@ -83,12 +83,6 @@ body, button, input {
   column-gap: 50px;
 }
 
-@media screen and (max-width: 900px) {
-  .row {
-    grid-template-columns: auto;
-  }
-}
-
 .section {
   background-color: rgb(2, 0, 31);
   padding: 30px;

@@ -1,0 +1,9 @@
+@media screen and (max-width: 900px) {
+    .row {
+        grid-template-columns: auto;
+    }
+
+    .glow {
+        font-size: 70px;
+    }
+}
