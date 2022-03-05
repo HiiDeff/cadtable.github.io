@@ -4,6 +4,8 @@
   --blue: rgb(67, 41, 214);
   --white: #fff;
   --lightblue: rgb(209, 209, 255);
+  --pagebackground: rgb(2, 0, 31);
+  --cardbackground: rgb(10, 4, 68);
 }
 
 html, body {
@@ -31,6 +33,10 @@ body, button, input {
 ::selection {
   background-color: rgb(209, 209, 255);
   color: rgb(18, 18, 119);
+}
+
+.content {
+  background-color:var(--pagebackground);
 }
 
 .flex {
@@ -71,10 +77,15 @@ body, button, input {
   padding: 0;
 }
 
-.line {
+.headerline {
   border-bottom: 1px solid white;
   height: 20px;
   width: 100%;
+}
+
+.line {
+  height: 0px;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .row {
@@ -84,9 +95,9 @@ body, button, input {
 }
 
 .section {
-  background-color: rgb(2, 0, 31);
+  background-color: var(--pagebackground);
   padding: 30px;
-  border-bottom: 2px solid white;
+  border: none !important;
 }
 
 .specifications p {
@@ -110,6 +121,7 @@ li {
   margin: 5px;
   border: 3px solid var(--white);
   text-align: center;
+  background-color: var(--cardbackground);
 }
 
 .card h4 {
