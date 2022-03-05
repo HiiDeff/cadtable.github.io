@@ -127,7 +127,7 @@ a {
   background-color: rgb(59, 54, 129);
   border-radius: 50px;
   padding: 10px 100px;
-  display: block;
+  margin: 5px;
 }
 
 /*Footer*/
