@@ -10,4 +10,8 @@
     .topbuttons {
         padding: 10px 50px;
     }
+
+    .minigrid {
+        grid-template-columns: auto;
+    }
 }
