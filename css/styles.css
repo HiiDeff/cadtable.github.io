@@ -147,6 +147,10 @@ a {
   margin: 5px;
 }
 
+.documents a:hover {
+  text-decoration: underline;
+}
+
 /*Footer*/
 .footer {
   background-color: rgb(59, 54, 129);
